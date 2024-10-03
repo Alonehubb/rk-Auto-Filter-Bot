@@ -114,7 +114,7 @@ SHORTLINK = is_enabled('SHORTLINK', False)
 
 
 PAYMENT_QR = environ.get('PAYMENT_QR', 'https://graph.org/file/cf0815db33c71115b208a.jpg') #telegraph link of your QR code 
-UPI_ID = environ.get('UPI_ID', 'Rishikesh-sharma09@axl') # Add your upi id here
+UPI_ID = environ.get('UPI_ID', '9527806617@ybl') # Add your upi id here
 # for stream
 IS_STREAM = is_enabled('IS_STREAM', True) #true if you want stream feature active in your bot
 BIN_CHANNEL = environ.get("BIN_CHANNEL", "") #if is_stream = true then add a channel id ex: -10026393639
